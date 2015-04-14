@@ -1,0 +1,144 @@
+html,
+body {
+	height: 100%;
+	background-color: #D8D8D8;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+}
+
+#title {
+	text-align: center;
+	color: #333;
+	padding: 20px 0;
+	font-family: "Arial";
+	font-size: 30px;
+}
+
+/* All the action is below! */
+
+/*div {
+    transition: <property> <duration> <timing-function> <delay>;
+}
+*/
+
+#spacer_container {
+	padding-bottom: 60px;
+}
+
+#workspace {
+	background-color: #ffffe0;
+	width: 715px;
+	margin: 0 auto;
+	padding: 40px 40px;
+	box-shadow: 0 0 8px black;
+}
+
+#painting {
+	float: right;
+	height: 472px;
+	width: 590px;
+/*	border: 1px solid #333;
+*/}
+
+#color_palette {
+	float: left;
+}
+
+.circle {
+	border-radius: 50%;
+	border: 2px solid gray;
+	width: 50px;
+	height: 50px;
+	transition-property: background-color, color;
+	transition-duration: 1s;
+	transition-timing-function: ease-out;
+}
+
+.color {
+	height: 50px;
+	width: 50px;
+	border: 1px solid #aaa;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+#pink {
+	background-color: #FFA3D1;
+}
+
+#spring_yellow {
+	background-color: #ffff99;
+}
+
+#spring_green {
+	background-color: #8AE68A;
+}
+
+#robins_egg_blue {
+	background-color: #A3FFFF;
+}
+
+#lavendar {
+	background-color: #cc99ff;
+}
+
+#tangerine {
+	background-color: #FF8585;
+}
+
+#white {
+	background-color: #FFF;
+}
+
+#row_1 {
+	height: 55px;
+}
+
+#row_1_box_1 {
+	float: left;
+	width: 55px;
+	height: 55px;
+	background-color: white;
+}
+#row_1_box_2 {
+	float: left;
+	width: 55px;
+	height: 55px;
+	background-color: white;
+}
+#row_1_box_3 {
+	float: left;
+	width: 55px;
+	height: 55px;
+	background-color: white;
+}
+.clear {
+	clear: both;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	padding: 40px 40px;
+}
+
+footer a:link {
+	font-family: Arial, sans-serif;
+	color: #5f5f5f;
+	letter-spacing: 2px;
+	font-size: 13px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #7ccd24;
+}
+
+footer a:visited {
+	color: #4f4f4f;
+}
+
