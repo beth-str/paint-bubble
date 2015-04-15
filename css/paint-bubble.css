@@ -17,13 +17,6 @@ body {
 	font-size: 30px;
 }
 
-/* All the action is below! */
-
-/*div {
-    transition: <property> <duration> <timing-function> <delay>;
-}
-*/
-
 #spacer_container {
 	padding-bottom: 60px;
 }
@@ -50,18 +43,18 @@ body {
 .circle {
 	border-radius: 50%;
 	border: 2px solid gray;
-	width: 50px;
-	height: 50px;
+	width: 45px;
+	height: 45px;
 	transition-property: background-color, color;
 	transition-duration: 1s;
 	transition-timing-function: ease-out;
 }
 
 .color {
-	height: 50px;
-	width: 50px;
+	height: 45px;
+	width: 45px;
 	border: 1px solid #aaa;
-	margin-bottom: 15px;
+	margin-bottom: 12px;
 	cursor: pointer;
 }
 
@@ -89,30 +82,34 @@ body {
 	background-color: #FF8585;
 }
 
+#gray {
+	background-color: #cccccc;
+}
+
 #white {
 	background-color: #FFF;
 }
 
 #row_1 {
-	height: 55px;
+	height: 48px;
 }
 
 #row_1_box_1 {
 	float: left;
-	width: 55px;
-	height: 55px;
+	width: 48px;
+	height: 48px;
 	background-color: white;
 }
 #row_1_box_2 {
 	float: left;
-	width: 55px;
-	height: 55px;
+	width: 48px;
+	height: 48px;
 	background-color: white;
 }
 #row_1_box_3 {
 	float: left;
-	width: 55px;
-	height: 55px;
+	width: 48px;
+	height: 48px;
 	background-color: white;
 }
 .clear {
@@ -141,4 +138,3 @@ footer a:hover {
 footer a:visited {
 	color: #4f4f4f;
 }
-
